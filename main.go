@@ -23,6 +23,7 @@ func uniqkey() {
 		}
 		if bytes.Compare(k, k2) == 0 {
 			log.Println("uniqkey and reget is equal")
+			log.Println("uniqkey and reget is equal")
 		}
 	}
 }
